@@ -1,5 +1,5 @@
 # react-modal-customizable <!-- omit in toc -->
-This module allows to integrate a modals simply and customize.
+This module allows to integrate a modals simply and customize in your react app.
 
 ## Table of Contents <!-- omit in toc -->
 
