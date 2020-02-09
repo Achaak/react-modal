@@ -9,7 +9,7 @@ class Modal extends React.Component {
         super(props)
 
         this.state = {
-            isOpen: true
+            isOpen: false
         }
     }
 
