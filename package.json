@@ -1,0 +1,19 @@
+{
+  "name": "react-modal-customizable",
+  "version": "1.0.0",
+  "description": "react-modal-customizable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Achaak/react-modal-customizable.git"
+  },
+  "author": "Axel Lavoie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Achaak/react-modal-customizable/issues"
+  },
+  "homepage": "https://github.com/Achaak/react-modal-customizable#readme"
+}
