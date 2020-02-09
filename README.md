@@ -59,10 +59,11 @@ export default Example;
 
 ## Props
 ### General
-|    Props    | Description                          |  Type   | Default |
-| :---------: | :----------------------------------- | :-----: | :-----: |
-| closeButton | Use to show or hide the close button | Boolean |  true   |
-|    title    | Use to set a title in the modal      | String  |  null   |
+|      Props       | Description                                |  Type   | Default |
+| :--------------: | :----------------------------------------- | :-----: | :-----: |
+|      title       | Use to set a title in the modal            | String  |  null   |
+|   closeButton    | Use to show or hide the close button       | Boolean |  true   |
+| hideClickOutside | Use to hide the modal if you click outside | Boolean |  false  |
 
 ### Buttons
 |  Props  | Description                 | Type  | Default |
@@ -107,10 +108,10 @@ export default Example;
 
 
 ### Callbacks
-|      Props       | Description                                 |  Type  | Default |
-| :--------------: | :------------------------------------------ | :----: | :-----: |
-|   onShow   | Callback fired after show the modal.      | Function |   null    |   
-|   onHide   | Callback fired hide show the modal.      | Function |   null    |   
+| Props  | Description                          |   Type   | Default |
+| :----: | :----------------------------------- | :------: | :-----: |
+| onShow | Callback fired after show the modal. | Function |  null   |
+| onHide | Callback fired hide show the modal.  | Function |  null   |
 
 ## Functions
 ### showModal()
