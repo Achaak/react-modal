@@ -1,4 +1,5 @@
-#react-modal-customizable
+# react-modal-customizable <!-- omit in toc -->
+This module allows to integrate a modals simply and customize.
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -16,8 +17,8 @@
 ## Installation
 To install, you can use npm or yarn:
 ```
-$ npm install react-modal
-$ yarn add react-modal
+$ npm install react-modal-customizable
+$ yarn add react-modal-customizable
 ```
 
 ## Examples
