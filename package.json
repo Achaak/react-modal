@@ -2,6 +2,7 @@
   "name": "react-modal-customizable",
   "version": "1.1.1",
   "description": "This module allows to integrate a modals simply and customize in your react app.",
+  "keywords": ["react", "modal", "custom", "react-component"],
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
