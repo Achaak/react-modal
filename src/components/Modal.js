@@ -84,24 +84,27 @@ class Modal extends React.Component {
         return (
             <div
                 className={classNames({
-                    "overlay-modal" : true,
+                    "modal-container" : true,
                     "open": this.state.isOpen
                 })}
-                style={ 
-                    this.props.styleOverlay
-                }
-                onClick={ (e) => {
-                    if(this.props.hideClickOutside) {
-                        this.hideModal()
-                    }
-                }}
+                style={ this.props.styleContainer }
             >
+                <div
+                    className="overlay-modal"
+                    style={ 
+                        this.props.styleOverlay
+                    }
+                    onClick={ (e) => {
+                        if(this.props.hideClickOutside) {
+                            this.hideModal()
+                        }
+                    }}
+                ></div>
+
                 <div
                     className="container-modal"
                     style={ this.props.styleContent }
                     onClick={ (e) => {
-                        e.preventDefault()
-                        e.stopPropagation()
                     }}
                 >
                     { this._getTitle() }

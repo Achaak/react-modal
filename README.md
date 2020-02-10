@@ -101,6 +101,7 @@ export default Example;
 ### Style
 |      Props       | Description                                 |  Type  | Default |
 | :--------------: | :------------------------------------------ | :----: | :-----: |
+|  styleContainer  | Use to change the style of the container    | Object |   {}    |
 |   styleOverlay   | Use to change the style of the overlay      | Object |   {}    |
 |   styleContent   | Use to change the style of the content      | Object |   {}    |
 |    styleTitle    | Use to change the style of the title        | Object |   {}    |

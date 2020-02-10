@@ -1,4 +1,4 @@
-.overlay-modal {
+.modal-container {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -11,18 +11,27 @@
 
     transition: opacity 300ms;
 
-    background-color: #ffffff9e;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     &.open {
         opacity: 1;
         pointer-events: initial;
     }
 
+    .overlay-modal {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        background-color: #ffffff9e;
+    }
+
     .container-modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+
         background-color: white;
         max-height: 90vh;
         max-width: 90vw;
