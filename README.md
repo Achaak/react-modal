@@ -13,6 +13,7 @@ This module allows to integrate a modals simply and customize in your react app.
 - [Functions](#functions)
   - [showModal()](#showmodal)
   - [hideModal()](#hidemodal)
+  - [License](#license)
 
 ## Installation
 To install, you can use npm or yarn:
@@ -125,3 +126,6 @@ this.modal.showModal()
 ``` js
 this.modal.hideModal()
 ```
+
+### License
+MIT
